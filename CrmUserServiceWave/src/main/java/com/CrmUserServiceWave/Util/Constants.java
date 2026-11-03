@@ -20,4 +20,11 @@ public interface Constants {
 	String PASSWORD_NOT_MATCH = "Password Not Match";
 	String INVALID_PASSWORD = "Password Not Match";
 	String INVALID_ROLE = "Role Not Found";
+	String EMPLOYEE_REGISTERED_SUCCESSFULLY = "employee registered successfully";
+	String EMPLOYEE_ALREADY_EXISTS = "employee already exists";
+	String EMPLOYEE_NOT_FOUND = "employee not found";
+	String EMPLOYEE_UPDATED_SUCCESSFULLY = "employee updated successfully";
+	String EMPLOYEE_FOUND = "employee found successfully";
+	String SOMETHING_WENT_WRONG = "something went wrong";
+	String EMPLOYEE_DELETED = "employee deleted successfully";
 }
