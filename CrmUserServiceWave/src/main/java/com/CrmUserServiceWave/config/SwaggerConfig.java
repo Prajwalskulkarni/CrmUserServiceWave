@@ -20,7 +20,7 @@ public class SwaggerConfig {
 	                .description("API documentation for Coffie Project "))
 	            .servers(List.of(
 	                    new Server().url("https://internaltomcat.diwise.in/Pandoza_Admin/"),
-	                    new Server().url("http://localhost:8080/")));
+	                    new Server().url("http://localhost:9004/")));
 
 		      
 

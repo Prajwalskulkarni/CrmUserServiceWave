@@ -22,13 +22,11 @@ public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	private String name;
 	private String email;
 	private String password;
 	private String otp;
-	private String phone;
-	private String address;
 	private boolean isActive;
+	private boolean isVerified;
 	@ManyToOne
 	@JoinColumn(name = "role_id")
 	private Roll role;

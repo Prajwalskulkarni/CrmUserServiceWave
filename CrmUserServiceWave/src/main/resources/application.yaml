@@ -3,9 +3,9 @@ spring:
     name: HRMS_Pandoza
 
   datasource:
-    url: jdbc:mysql://182.70.116.71:3306/hrmspandozaNew
-    username: developer 
-    password: Pan@Server@2025
+    url: jdbc:mysql://localhost:3306/CrmUserService
+    username: root 
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
@@ -13,7 +13,7 @@ spring:
       ddl-auto: update
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
+        dialect: org.hibernate.dialect.MySQLDialect
         enable_lazy_load_no_trans: true
 
   servlet:

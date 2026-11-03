@@ -10,4 +10,6 @@ public interface RoleRepository extends JpaRepository<Roll, Integer> {
 
 	Roll findByName(String name);
 
+//	Roll findByName(Roll role);
+
 }

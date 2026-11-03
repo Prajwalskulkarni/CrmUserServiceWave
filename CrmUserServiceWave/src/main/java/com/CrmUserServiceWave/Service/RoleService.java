@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 import com.CrmUserServiceWave.Dto.Message;
 import com.CrmUserServiceWave.Dto.RoleRequest;
 
-@Service
 public interface RoleService {
 	public Message<RoleRequest> createRole(RoleRequest rolesDto);
 	public Message<RoleRequest> updateRole(RoleRequest rolesDto);

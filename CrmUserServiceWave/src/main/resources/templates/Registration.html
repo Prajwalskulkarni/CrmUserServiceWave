@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome User</title>
+</head>
+<body style="  font-family: Arial, sans-serif;
+     background: linear-gradient(135deg, #e0f2fe 0%, #ffffff 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      margin: auto;">
+    <div class="new-cont" style=" background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.11);
+      width: 100%;
+      max-width: 400px;
+      margin:10px;">
+        <h2>Welcome, ${Employee.employeeName!""}!</h2>
+    <p>We’re pleased to inform you that your account has been successfully created. Please copy the OTP and click the ‘Verify My Account’ button to complete your verification. After verification is complete use this following login details. </p>
+     
+    <div class="account-details" style="background:#01686b; padding:20px; border-radius: 5px; font-size:18px;">
+
+    <ul style="color:white; font-size:16px;">
+        <li >Email: <strong>${Employee.email!""}</strong></li>
+        <li>Password: <strong>${Employee.password!""}</strong></li>
+    </ul>
+    </div>
+   
+       
+    <p>Regards,<br/>Admin Team</p>
+    </div>
+</body>
+</html>
